@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signUp.css">
+    <script src="signUp.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <img src="Rectangle16.svg" alt="a photo of doctors on a surgery" id="containerImg">
+        <div id="container2">
+            <h1>University Care System</h1>
+            <div id="signUpFormContainer">
+                <p id="heading">Sign UP</p>
+                <div id="formTypeContainer">
+                    <button id="formTypeBtn1" class="formTypeBtn" value="doctor">doctor</button>
+                    <button id="formTypeBtn2" class="formTypeBtn hover" value="student">student</button>
+                </div>
+                <form action="#" id="signUpForm">
+                    <input type="text" class="containerInputs" placeholder="First name" required>
+                    <input type="text" class="containerInputs" placeholder="Last name" required>
+                    <input type="email" class="containerInputs" placeholder="example@gmail.com" required>
+                    <input type="password" class="containerInputs" placeholder="Password" required>
+                    <input type="text" class="hidden containerInputs" id="drId" placeholder="Doctor ID" required>
+                    <input type="submit" id="submitBtn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
